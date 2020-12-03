@@ -5,11 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: content/lafm/pub
-  label: lafm-pub
+  path: content/lafm
+  label: lafm
   create: all
   match: "**/*"
   templates:
+  - lastorie
+  - lafm-autor
+  - lafm-tipo-collection
   - lafm-pub-collection
 upload_dir: archivos
 public_path: "/archivos"
