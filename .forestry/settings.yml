@@ -6,6 +6,13 @@ webhook_url:
 sections:
 - type: heading
   label: lafm
+- type: directory
+  path: content/lafm/stories
+  label: lafm-stories
+  create: documents
+  match: "'**/*'"
+  templates:
+  - basico
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
