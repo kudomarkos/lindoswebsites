@@ -33,4 +33,5 @@ fields:
     required: false
   label: lafm-autor-enlace
 pages:
+- content/lafm/autores/Silver.md
 - content/lafm/autores/Sommacal.md
