@@ -43,3 +43,5 @@ fields:
     max: 
     labelField: 
   label: lafm-storie-autores-list
+pages:
+- content/lafm/stories/pruebitis.md
