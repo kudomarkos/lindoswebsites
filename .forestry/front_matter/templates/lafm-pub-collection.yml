@@ -1,4 +1,16 @@
 ---
 label: lafm-pub-collection
 hide_body: true
-fields: []
+fields:
+- name: lafm-pub-meses
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: lafm-pub-meses
