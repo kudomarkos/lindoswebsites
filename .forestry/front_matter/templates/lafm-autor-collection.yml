@@ -1,6 +1,7 @@
 ---
 label: lafm-autor-collection
 hide_body: true
+display_field: lafm-autor-alias
 fields:
 - name: lafm-autor-name
   type: text
