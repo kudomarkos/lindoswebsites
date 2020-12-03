@@ -26,3 +26,15 @@ fields:
       file: 
       path: 
   label: lafm-pub-meses
+- name: lafm-pub-tipo
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: lafm-pub
+      file: 
+      path: 
+  label: lafm-pub-tipo
