@@ -14,7 +14,7 @@ sections:
 - type: heading
   label: lafm
 - type: directory
-  path: content/lafm/autores
+  path: content\lafm\autores
   label: lafm-autores
   create: all
   match: "**/*"
