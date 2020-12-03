@@ -1,4 +1,18 @@
 ---
 label: basico
 hide_body: true
-fields: []
+fields:
+- name: titulo
+  type: text
+  config:
+    required: false
+  label: titulo
+- name: mastexto
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: mastexto
