@@ -1,0 +1,23 @@
+{
+  "name": "mislindossitios",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "lafm:dev": "nuxt sitios/fattoriamckenzie",
+    "maldiciones:dev": "nuxt sitios/maldiciones",
+    "callum:dev": "nuxt sitios/callumbeattielyrics",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lafm:generate": "nuxt generate sitios/fattoriamckenzie",
+    "maldiciones:generate": "nuxt generate sitios/maldiciones",
+    "callum:generate": "nuxt generate sitios/callumbeattielyrics"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.9.0",
+    "@nuxtjs/pwa": "^3.3.2",
+    "core-js": "^3.6.5",
+    "nuxt": "^2.14.6"
+  }
+}

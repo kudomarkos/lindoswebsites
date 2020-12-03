@@ -1,0 +1,44 @@
+# This is a basic workflow to help you get started with Actions
+
+name: DesplegarFattoriaMcKenzie
+
+# Controls when the action will run. 
+on:
+  # Triggers the workflow on push or pull request events but only for the developer branch
+  push:
+    branches: [ developer ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+env:
+  SURGE_TOKEN: ${{secrets.SURGE_TOKEN}}
+  LUPO_DOMAIN: ${{secrets.LUPO_DOMAIN}}
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  job1:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-18.04
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      - id: step2
+        name: Setup Node
+        uses: actions/setup-node@v2-beta
+        with:
+            node-version: 12
+
+      - id: step3
+        name: Instalar dependecias
+        run: npm install
+      - id: step4
+        name: Crear el sitio estatico
+        run: npm run lafm:generate  
+
+      - id: step5
+        name: Install Surge
+        run: npm install -g surge
+
+      - id: step6
+        name: Deploy to Surge
+        run:  surge ./lafm_site ${{secrets.LUPO_DOMAIN}} --token ${{secrets.SURGE_TOKEN}}
