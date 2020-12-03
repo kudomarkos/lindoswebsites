@@ -1,13 +1,14 @@
 ---
-label: lastorie
+label: lafm-storie-collection
 hide_body: true
+display_field: storie-title
 fields:
-- name: storie-title
+- name: lafm-storie-titulo
   type: text
   config:
     required: false
-  label: storie-title
-- name: storie-pv
+  label: lafm-storie-titulo
+- name: lafm-storie-pv
   type: number
   description: ''
   default: 0
@@ -16,9 +17,9 @@ fields:
     min: 
     max: 
     step: 
-  label: storie-pv
-- name: storie-image
+  label: lafm-storie-pv
+- name: lafm-storie-image
   type: file
   config:
     maxSize: 64
-  label: storie-image
+  label: lafm-storie-image
