@@ -7,12 +7,25 @@ sections:
 - type: heading
   label: lafm
 - type: directory
+  path: content/lafm/autores
+  label: lafm-autores
+  create: all
+  match: "**/*"
+- type: directory
   path: content/lafm/stories
   label: lafm-stories
   create: documents
   match: "'**/*'"
-  templates:
-  - basico
+- type: directory
+  path: content/lafm/tipos
+  label: lafm-tipos
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/lafm/pubs
+  label: lafm-pubs
+  create: all
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
