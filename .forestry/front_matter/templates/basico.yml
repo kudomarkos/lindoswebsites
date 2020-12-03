@@ -16,5 +16,3 @@ fields:
     schema:
       format: markdown
   label: mastexto
-pages:
-- cositas/cosita1.md
