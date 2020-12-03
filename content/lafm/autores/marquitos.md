@@ -1,3 +1,0 @@
----
-lafm-autor-name: "Marquitos"
----
