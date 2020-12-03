@@ -7,7 +7,19 @@ fields:
   default: ''
   config:
     required: false
-    options: []
+    options:
+    - gennaio
+    - febbraio
+    - marzo
+    - aprile
+    - maggio
+    - giugno
+    - luglio
+    - agosto
+    - settembre
+    - ottobre
+    - novembre
+    - dicembre
     source:
       type: simple
       section: 
