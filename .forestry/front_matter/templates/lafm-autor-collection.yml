@@ -1,4 +1,34 @@
 ---
 label: lafm-autor-collection
 hide_body: true
-fields: []
+fields:
+- name: lafm-autor-name
+  type: text
+  config:
+    required: false
+  label: lafm-autor-name
+- name: lafm-autor-alias
+  type: text
+  config:
+    required: false
+  label: lafm-autor-alias
+- name: lafm-autor-image
+  type: file
+  config:
+    maxSize: 64
+  label: lafm-autor-image
+  default: "/uploads/avatardefault.png"
+- name: lafm-autor-descripcion
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: lafm-autor-descripcion
+- name: lafm-autor-enlace
+  type: text
+  config:
+    required: false
+  label: lafm-autor-enlace
