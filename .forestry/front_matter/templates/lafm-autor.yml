@@ -27,3 +27,8 @@ fields:
     schema:
       format: markdown
   label: lafm-autor-descripcion
+- name: lafm-autor-enlace
+  type: text
+  config:
+    required: false
+  label: lafm-autor-enlace
