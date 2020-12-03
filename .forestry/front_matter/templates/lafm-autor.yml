@@ -32,3 +32,5 @@ fields:
   config:
     required: false
   label: lafm-autor-enlace
+pages:
+- content/lafm/autores/Sommacal.md
