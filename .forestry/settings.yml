@@ -7,24 +7,24 @@ sections:
 - type: heading
   label: lafm
 - type: directory
-  path: content\lafm\autores
+  path: contenido/lafm/autores
   label: lafm-autores
   create: all
   match: "**/*"
   templates:
   - lafm-autor-collection
 - type: directory
-  path: content/lafm/stories
+  path: contenido/lafm/stories
   label: lafm-stories
   create: documents
   match: "'**/*'"
 - type: directory
-  path: content/lafm/tipos
+  path: contenido/lafm/tipos
   label: lafm-tipos
   create: all
   match: "**/*"
 - type: directory
-  path: content/lafm/pubs
+  path: contenido/lafm/pubs
   label: lafm-pubs
   create: all
   match: "**/*"
