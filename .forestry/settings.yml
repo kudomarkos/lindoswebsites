@@ -11,6 +11,8 @@ sections:
   label: lafm-autores
   create: all
   match: "**/*"
+  templates:
+  - lafm-autor-collection
 - type: directory
   path: content/lafm/stories
   label: lafm-stories
