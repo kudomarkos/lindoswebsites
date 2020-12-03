@@ -34,5 +34,4 @@ fields:
     required: false
   label: lafm-autor-enlace
 pages:
-- content/lafm/autores/sommacal.md
 - cosita/loquefaltaba.md
