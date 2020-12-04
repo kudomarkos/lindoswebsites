@@ -33,3 +33,5 @@ fields:
   config:
     required: false
   label: lafm-autor-enlace
+pages:
+- contenido/lafm/autores/burattini.md
