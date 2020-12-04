@@ -34,4 +34,4 @@ fields:
     required: false
   label: lafm-autor-enlace
 pages:
-- contenido/lafmautores/michelon.md
+- content/lafmautores/artibani.md
