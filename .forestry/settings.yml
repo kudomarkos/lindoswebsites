@@ -14,10 +14,12 @@ sections:
   templates:
   - lafm-autor-collection
 - type: directory
-  path: contenido/lafm/stories
+  path: content/lafmstories
   label: lafm-stories
   create: documents
   match: "'**/*'"
+  templates:
+  - lafm-storie-collection
 - type: directory
   path: contenido/lafm/tipos
   label: lafm-tipos
