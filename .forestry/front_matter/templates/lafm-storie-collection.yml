@@ -32,3 +32,5 @@ fields:
       type: pages
       section: lafm-autores
   label: lafm-storie-autores-list
+pages:
+- content/lafmstories/esto es un coñazo è.md
