@@ -33,3 +33,5 @@ fields:
       type: pages
       section: lafm-autores
   label: lafm-storie-autores-list
+pages:
+- content/lafmstories/GIRL POWER.md
