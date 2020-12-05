@@ -21,12 +21,12 @@ sections:
   templates:
   - lafm-storie-collection
 - type: directory
-  path: contenido/lafm/tipos
+  path: content/lafmtipos
   label: lafm-tipos
   create: all
   match: "**/*"
 - type: directory
-  path: contenido/lafm/pubs
+  path: content/lafmpubs
   label: lafm-pubs
   create: all
   match: "**/*"
