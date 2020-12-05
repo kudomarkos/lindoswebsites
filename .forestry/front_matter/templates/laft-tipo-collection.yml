@@ -23,4 +23,5 @@ fields:
       format: html-blocks
   label: lafm-tipo-descripcion
 pages:
+- content/lafmtipos/tipo1-1.md
 - content/lafmtipos/tipo1.md
