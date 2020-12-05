@@ -99,3 +99,22 @@ fields:
     schema:
       format: html-blocks
   label: lafm-pub-strice
+- name: lafm-pub-editorial
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - glenat
+    - blur
+    - rizzoli
+    - mck
+    - galluci
+    - mandadori
+    - acme
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: lafm-pub-editorial
