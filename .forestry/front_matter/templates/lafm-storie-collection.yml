@@ -12,7 +12,7 @@ fields:
   type: number
   label: lafm-storie-pv
   description: ''
-  default: 4
+  default: 6
   required: true
   config:
     min: 
