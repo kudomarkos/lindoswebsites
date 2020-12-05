@@ -1,4 +1,101 @@
 ---
 label: lafm-pub-collection
 hide_body: true
-fields: []
+fields:
+- name: lafm-pub-tipo
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: lafm-tipos
+      file: 
+      path: 
+  label: lafm-pub-tipo
+- name: lafm-pub-titulo
+  type: text
+  config:
+    required: false
+  label: lafm-pub-titulo
+- name: lafm-pub-num
+  type: text
+  config:
+    required: false
+  label: lafm-pub-num
+- name: lafm-pub-subtitulo
+  type: text
+  config:
+    required: false
+  label: lafm-pub-subtitulo
+- name: lafm-pub-meses
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+    options:
+    - gennaio
+    - febbraio
+    - marzo
+    - aprile
+    - maggio
+    - giugno
+    - luglio
+    - agosto
+    - settembre
+    - ottobre
+    - novembre
+    - dicembre
+  label: lafm-pub-meses
+- name: lafm-pub-anio
+  type: number
+  label: lafm-pub-anio
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: lafm-pub-isbn
+  type: text
+  config:
+    required: false
+  label: lafm-pub-isbn
+- name: lafm-pub-image
+  type: file
+  config:
+    maxSize: 64
+  label: lafm-pub-image
+- name: lafm-pub-stories
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: lafm-stories
+  label: lafm-pub-stories
+- name: lafm-pub-tavoles
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: lafm-pub-tavoles
+- name: lafm-pub-strice
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: lafm-pub-strice
