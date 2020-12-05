@@ -42,5 +42,3 @@ fields:
     max: 
     labelField: 
   label: lafm-storie-autores-list
-pages:
-- contenido/lafm/stories/pruebahistorieta.md
