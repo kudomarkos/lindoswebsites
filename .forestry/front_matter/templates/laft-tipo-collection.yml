@@ -1,6 +1,7 @@
 ---
 label: laft-tipo-collection
 hide_body: true
+display_field: lafm-tipo-tipo
 fields:
 - name: lafm-tipo-tipo
   type: text
