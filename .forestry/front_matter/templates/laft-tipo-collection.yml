@@ -1,4 +1,23 @@
 ---
 label: laft-tipo-collection
 hide_body: true
-fields: []
+fields:
+- name: lafm-tipo-tipo
+  type: text
+  config:
+    required: true
+  label: lafm-tipo-tipo
+- name: lafm-tipo-image
+  type: file
+  config:
+    maxSize: 64
+  label: lafm-tipo-image
+- name: lafm-tipo-descripcion
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: html-blocks
+  label: lafm-tipo-descripcion
