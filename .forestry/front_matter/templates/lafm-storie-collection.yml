@@ -42,3 +42,5 @@ fields:
     max: 
     labelField: 
   label: lafm-storie-autores-list
+pages:
+- content/lafmstories/ioo.md
