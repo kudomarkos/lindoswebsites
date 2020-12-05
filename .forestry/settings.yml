@@ -23,13 +23,17 @@ sections:
 - type: directory
   path: content/lafmtipos
   label: lafm-tipos
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - laft-tipo-collection
 - type: directory
   path: content/lafmpubs
   label: lafm-pubs
-  create: all
+  create: documents
   match: "**/*"
+  templates:
+  - lafm-pub-collection
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
