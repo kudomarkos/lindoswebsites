@@ -1,6 +1,7 @@
 ---
 label: lafm-storie-collection
 hide_body: true
+display_field: lafm-storie-titulo
 fields:
 - name: lafm-storie-titulo
   type: text
