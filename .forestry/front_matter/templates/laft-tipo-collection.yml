@@ -24,5 +24,6 @@ fields:
       format: html-blocks
   label: lafm-tipo-descripcion
 pages:
+- content/lafmtipos/EurekaPocket.md
 - content/lafmtipos/EurekaRevista.md
 - content/lafmtipos/EurekaSelezione.md
