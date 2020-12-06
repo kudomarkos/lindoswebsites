@@ -24,6 +24,7 @@ fields:
       format: html-blocks
   label: lafm-tipo-descripcion
 pages:
+- content/lafmtipos/BurRizzoliTavole.md
 - content/lafmtipos/CorrierBoy.md
 - content/lafmtipos/CorrieredeiRagazzi.md
 - content/lafmtipos/Dardo.md
