@@ -24,6 +24,7 @@ fields:
       format: html-blocks
   label: lafm-tipo-descripcion
 pages:
+- content/lafmtipos/AColori.md
 - content/lafmtipos/Acme.md
 - content/lafmtipos/AlbydOro.md
 - content/lafmtipos/Almanacchi.md
