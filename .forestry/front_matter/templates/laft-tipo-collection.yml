@@ -24,6 +24,7 @@ fields:
       format: html-blocks
   label: lafm-tipo-descripcion
 pages:
+- content/lafmtipos/AlbydOro.md
 - content/lafmtipos/Almanacchi.md
 - content/lafmtipos/BurRizzoliStorie.md
 - content/lafmtipos/BurRizzoliTavole.md
