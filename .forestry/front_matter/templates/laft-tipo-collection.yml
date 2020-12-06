@@ -25,6 +25,7 @@ fields:
   label: lafm-tipo-descripcion
 pages:
 - content/lafmtipos/CorrieredeiRagazzi.md
+- content/lafmtipos/Dardo.md
 - content/lafmtipos/EurekaPocket.md
 - content/lafmtipos/EurekaRevista.md
 - content/lafmtipos/EurekaSelezione.md
