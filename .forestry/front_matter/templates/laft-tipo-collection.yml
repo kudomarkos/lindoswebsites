@@ -23,3 +23,5 @@ fields:
     schema:
       format: html-blocks
   label: lafm-tipo-descripcion
+pages:
+- content/lafmtipos/EurekaRevista.md
