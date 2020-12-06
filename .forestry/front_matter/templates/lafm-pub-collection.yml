@@ -125,3 +125,5 @@ fields:
       file: 
       path: 
   label: lafm-pub-editorial
+pages:
+- content/lafmpubs/SalaniStorie01.md
