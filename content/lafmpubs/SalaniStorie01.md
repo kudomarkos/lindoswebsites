@@ -3,7 +3,7 @@ lafm-pub-tipo: content/lafmtipos/SalaniStorie.md
 lafm-pub-anio: 2015
 lafm-pub-tipoimage: s
 lafm-pub-image: https://3.bp.blogspot.com/-6mw4Csy2Grg/XH8C5EfODmI/AAAAAAAAQUo/selYBQdfuzIPfW4UwqLZjg4sU8ypRX-TACLcBGAs/s1600/LeStorie.jpg
-lafm-pub-editorial: ''
+lafm-pub-editorial: salani
 lafm-pub-titulo: Le Storie!
 lafm-pub-num: "1"
 lafm-pub-subtitulo: ''
