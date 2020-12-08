@@ -8,12 +8,6 @@ fields:
   config:
     required: true
   label: lafm-tipo-tipo
-- name: lafm-tipo-image
-  type: file
-  config:
-    maxSize: 64
-  label: lafm-tipo-image
-  default: "/uploads/noimagetipo.jpg"
 - name: lafm-tipo-descripcion
   type: textarea
   default: ''
@@ -23,6 +17,11 @@ fields:
     schema:
       format: html-blocks
   label: lafm-tipo-descripcion
+- name: lafm-tipo-image
+  type: text
+  config:
+    required: false
+  label: lafm-tipo-image
 pages:
 - content/lafmtipos/AColori.md
 - content/lafmtipos/Acme.md
