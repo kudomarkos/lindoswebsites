@@ -102,7 +102,7 @@ fields:
   label: lafm-pub-strice
 - name: lafm-pub-editorial
   type: select
-  default: []
+  default: ''
   config:
     required: false
     options:
@@ -113,6 +113,9 @@ fields:
     - galluci
     - mandadori
     - acme
+    - macchina nera
+    - salani
+    - eureka
     source:
       type: simple
       section: 
