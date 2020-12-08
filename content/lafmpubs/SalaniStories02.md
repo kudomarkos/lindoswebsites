@@ -2,7 +2,7 @@
 lafm-pub-tipo: content/lafmtipos/SalaniStorie.md
 lafm-pub-anio: 0
 lafm-pub-tipoimage: v
-lafm-pub-image: "/uploads/salanistorie02.jpeg"
+lafm-pub-image: https://2.bp.blogspot.com/-a6QGIWrv2_c/XH8C6cJG5YI/AAAAAAAAQU8/RDCBoJ53ir8NGiHgF298lvdsDSRwG-fJgCLcBGAs/s1600/QuanteStorie.jpg
 lafm-pub-editorial: ''
 lafm-pub-titulo: Quante Storie!
 lafm-pub-num: "2"
