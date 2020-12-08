@@ -128,7 +128,7 @@ fields:
     required: false
   label: lafm-pub-image
 pages:
-- content/lafmpubs/SalaniStorie01.md
+- content/lafmpubs/SalaniStories01.md
 - content/lafmpubs/SalaniStories02.md
 - content/lafmpubs/SalaniStories03.md
 - content/lafmpubs/SalaniStories04.md
