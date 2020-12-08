@@ -5,6 +5,8 @@ export default {
     dir: '../../lafm_site'
   },
 
+  
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Fattoria McKenzie',
@@ -27,7 +29,11 @@ export default {
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
-  components: true,
+  components: {
+    dirs: [
+      '~/../../components'
+    ]
+  },
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
@@ -39,6 +45,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxt/image'
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)

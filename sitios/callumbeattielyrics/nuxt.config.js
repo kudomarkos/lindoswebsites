@@ -42,8 +42,10 @@ export default {
   ],
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
-  content: {
-    dir: '../../content'
+  components: {
+    dirs: [
+      '~/../../components'
+    ]
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
