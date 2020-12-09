@@ -1,12 +1,30 @@
 <template>
 <div>
   
-  <ul v-if="typeof historietas !== 'undefined'">
-    <li v-for="hist in historietas" :key="hist.slug">
+  <table v-if="typeof historietas !== 'undefined'">
+    <thead>
+    <tr>
+      <th>Titulo</th>
+      <th>Pv</th>
+      <th>Autores</th>
+      <th>Publicaciones</th>
+      <th>Imagen</th>
+      <th>Todo</th>
+
+    </tr>
+    </thead>
+    <tr v-for="hist in historietas" :key="hist.slug">
       <!-- {{ hist['lafm-storie-titulo']}} - {{ hist['lafm-storie-pv']}} -->
-      {{ hist }}
-      </li>
-  </ul>
+      <td>{{ hist["lafm-storie-titulo"] }}</td>
+      <td>{{ hist["lafm-storie-pv"] }}</td>
+      <td>{{ hist["lafm-storie-autores-list"] }}</td>
+
+      <td>{{ hist["susrevistas_array"] }}</td>
+      <td>{{ hist["lafm-storie-image"]}}</td>
+      <td>{{ hist }}</td>
+      
+    </tr>
+  </table>
   <!--
     <nuxt-content :document="doc" />
     -->
