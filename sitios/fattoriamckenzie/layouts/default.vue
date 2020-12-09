@@ -1,12 +1,12 @@
 <template>
   <div>
-    <!--
+    
     <NuxtLink to="/" >Home</NuxtLink>
-    <NuxtLink to="/about" >Sobre</NuxtLink>
-    <NuxtLink to="/hello" >Chorrada</NuxtLink>
+    <NuxtLink to="/storie" >Stories</NuxtLink>
+    <NuxtLink to="/publicazioni" >Publicazioni</NuxtLink>
     <NuxtLink to="/index" >Otro Home</NuxtLink>
-    <NuxtLink to="/pub/SalaniStorie" >Super</NuxtLink>
-   -->
+    <NuxtLink to="/links" >Links</NuxtLink>
+   
     <Nuxt />
   </div>
 </template>
