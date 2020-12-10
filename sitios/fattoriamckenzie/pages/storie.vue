@@ -44,7 +44,7 @@ export default {
         for(let key in historietas){
           let relacion = 'content' + historietas[key].path + '.md';
 
-          historietas[key]["susrevistas_array"] = await $content('lafmpubs')
+          historietas[key][srA] = await $content('lafmpubs')
           .where({
             "lafm-pub-stories": { '$contains' : relacion }
           })
@@ -59,6 +59,12 @@ export default {
 
             historietas[key][srA][key2][tipoide] = tipos[0][ "lafm-tipo-tipo"]
 
+          }
+
+          for(let key3 in historietas[key]["lafm-storie-autores-list"]){
+            
+            historietas[key]["lafm-storie-autores-list"][key3]=historietas[key]["lafm-storie-autores-list"][key3].slice(20, -3);
+            
           }
 
 
